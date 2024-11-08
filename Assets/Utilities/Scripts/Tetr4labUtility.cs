@@ -7,7 +7,7 @@ using UnityEngine.Networking;
 namespace Tetr4lab.Utilities {
 
     /// <summary>汎用ユーティリティ</summary>
-    public static class Tetr4labUtility {
+    public static partial class Tetr4labUtility {
 
 		/// <summary>ストリーミングアセットからデータを読み込んで返す</summary>
         /// <param name="filename"></param>
