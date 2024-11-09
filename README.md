@@ -14,7 +14,7 @@ https://github.com/tetr4lab/InfiniteScroll.git?path=/Assets/InfiniteScroll
 ```
 
 ```csharp
-using Tetr4lab.InfiniteScroll;
+using Tetr4lab.UI;
 ```
 
 ### SQLiteUnityKit
@@ -50,7 +50,16 @@ https://github.com/tetr4lab/FitForScreen.git?path=/Assets/FitForScreen
 ```
 
 ```csharp
-using Tetr4lab;
+using Tetr4lab.UI;
+```
+
+### SoundManager
+```
+https://github.com/tetr4lab/SoundManager.git?path=/Assets/SoundManager
+```
+
+```csharp
+using Tetr4lab.Audio;
 ```
 
 ### other Utilities for C#
