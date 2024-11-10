@@ -1,11 +1,7 @@
 {
-    "name": "org.tetr4lab.utilities",
-    "rootNamespace": "Tetr4lab.Utilities",
-    "references": [
-        "org.tetr4lab",
-        "Unity.Addressables",
-        "Unity.ResourceManager"
-    ],
+    "name": "org.tetr4lab.debuglog",
+    "rootNamespace": "",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

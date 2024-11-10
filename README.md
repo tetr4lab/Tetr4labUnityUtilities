@@ -8,6 +8,11 @@ https://github.com/tetr4lab/Tetr4labUnityUtilities.git?path=/Assets/Utilities
 using Tetr4lab.Utilities;
 ```
 
+### this DebugLogRemoval
+```
+https://github.com/tetr4lab/Tetr4labUnityUtilities.git?path=/Assets/DebugLog
+```
+
 ### InfiniteScroll
 ```
 https://github.com/tetr4lab/InfiniteScroll.git?path=/Assets/InfiniteScroll
