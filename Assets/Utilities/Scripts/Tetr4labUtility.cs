@@ -4,7 +4,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace Tetr4lab.Utilities {
+namespace Tetr4lab.UnityEngine {
 
     /// <summary>汎用ユーティリティ</summary>
     public static partial class Tetr4labUtility {

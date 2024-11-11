@@ -1,6 +1,6 @@
 {
-    "name": "org.tetr4lab.utilities",
-    "rootNamespace": "Tetr4lab.Utilities",
+    "name": "org.tetr4lab.unity.utilities",
+    "rootNamespace": "Tetr4lab.UnityEngine",
     "references": [
         "org.tetr4lab",
         "Unity.Addressables",

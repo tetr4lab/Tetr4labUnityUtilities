@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 #endif
 
-namespace Tetr4lab {
+namespace Tetr4lab.UnityEngine {
 
     /// <summary>プレハブのインスタンス数を管理するクラス</summary>
     /// <remarks>

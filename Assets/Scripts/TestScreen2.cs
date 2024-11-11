@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
-using Tetr4lab.UI;
-using Tetr4lab.Utilities;
+using Tetr4lab.UnityEngine;
 using Tetr4lab;
 using System;
 

@@ -1,12 +1,10 @@
 ﻿using System.Threading.Tasks;
 using UnityEngine;
-using Tetr4lab;
-using UnityEditor.PackageManager.Requests;
 #if USING_ADDRESSABLES
 using UnityEngine.AddressableAssets;
 #endif
 
-namespace Tetr4lab.UI {
+namespace Tetr4lab.UnityEngine {
 
     /// <summary>プレハブで画面を作るクラスの基礎 (同種の画面は同時に一つだけ)</summary>
     /// <example>public class NewClass : ScreenMode<NewClass>, IScreenMode { }</example>

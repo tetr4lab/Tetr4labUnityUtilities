@@ -1,4 +1,4 @@
-﻿namespace Tetr4lab.Utilities {
+﻿namespace Tetr4lab.UnityEngine {
     /// <summary>真偽値ペア</summary>
     public struct Vector2Bool {
         /// <summary></summary>

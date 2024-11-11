@@ -1,8 +1,8 @@
 {
-    "name": "org.tetr4lab.utilities",
+    "name": "org.tetr4lab.unity.utilities",
     "version": "1.0.0",
-    "displayName": "Tetr4labUtilities",
-    "description": "Tetr4lab Utilities",
+    "displayName": "Tetr4labUnityUtilities",
+    "description": "Tetr4lab UnityEngine Utilities",
     "unity": "2021.3",
     "documentationUrl": "https://github.com/tetr4lab/Tetr4labUnityUtilities.git?path=/Assets/Utilities",
     "licenses": "MIT",

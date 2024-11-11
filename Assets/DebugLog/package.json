@@ -1,8 +1,8 @@
 {
-    "name": "org.tetr4lab.debuglog",
+    "name": "org.tetr4lab.unity.debuglog",
     "version": "1.0.0",
-    "displayName": "Tetr4labDebugLogRemoval",
-    "description": "Tetr4lab DebugLog Removal",
+    "displayName": "Tetr4labUnityDebugLogRemoval",
+    "description": "Tetr4lab UnityEngine DebugLog Removal",
     "unity": "2021.3",
     "documentationUrl": "https://github.com/tetr4lab/Tetr4labUnityUtilities.git?path=/Assets/DebugLog",
     "licenses": "MIT",

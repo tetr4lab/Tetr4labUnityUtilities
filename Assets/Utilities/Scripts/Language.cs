@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Tetr4lab.Utilities {
+namespace Tetr4lab.UnityEngine {
     /// <summary>論理値許容型SystemLanguage</summary>
     public struct Language : IEquatable<Language> {
 		private bool hasValue;
