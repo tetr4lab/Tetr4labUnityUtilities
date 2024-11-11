@@ -32,7 +32,6 @@ namespace Tetr4lab.UnityEngine {
 
 		/// <summary>画面の生成</summary>
 		public static async Task<GameObject> CreateAsync (GameObject parent, params object [] args) {
-            Debug.Log ($"CreateAsync<{typeof (T)}> ({parent.name}, {args})");
             if (singleton) return null;
 			await InitAsync ();
 			singleton = Instantiate (modePrefab, parent.transform);
