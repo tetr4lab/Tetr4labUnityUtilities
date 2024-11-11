@@ -1,8 +1,6 @@
 ﻿using System.Threading.Tasks;
 using UnityEngine;
-#if USING_ADDRESSABLES
 using UnityEngine.AddressableAssets;
-#endif
 
 namespace Tetr4lab.UnityEngine {
 
@@ -27,13 +25,7 @@ namespace Tetr4lab.UnityEngine {
 				await TaskEx.DelayWhile (() => !modeInited);
 			} else {
 				modeStarted = true;
-#if USING_ADDRESSABLES
 				modePrefab = await Addressables.LoadAssetAsync<GameObject> ($"Prefabs/{typeof (T).Name}.prefab").Task;
-#else
-                var request = Resources.LoadAsync<GameObject> ($"Prefabs/{typeof (T).Name}");
-                await TaskEx.DelayUntil (() => request.isDone);
-                modePrefab = (GameObject) request.asset;
-#endif
                 modeInited = true;
 			}
 		}

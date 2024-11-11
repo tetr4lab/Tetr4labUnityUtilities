@@ -2,9 +2,7 @@
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using UnityEngine;
-#if USING_ADDRESSABLES
 using UnityEngine.AddressableAssets;
-#endif
 
 namespace Tetr4lab.UnityEngine {
 
@@ -70,13 +68,7 @@ namespace Tetr4lab.UnityEngine {
 		/// <summary>デフォルトプレハブ</summary>
 		public async Task<GameObject> GetPrefabAsync () {
 			if (!prefab) {
-#if USING_ADDRESSABLES
                 prefab = await Addressables.LoadAssetAsync<GameObject> ($"Prefabs/{typeof (T).Name}.prefab").Task;
-#else
-                var request = Resources.LoadAsync<GameObject> ($"Prefabs/{typeof (T).Name}");
-                await TaskEx.DelayUntil (() => request.isDone);
-                prefab = (GameObject) request.asset;
-#endif
 			}
 			return prefab;
 		}
